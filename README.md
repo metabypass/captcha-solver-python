@@ -63,6 +63,19 @@ Put your site_url and site_key in the below code to obtain a token
 # call reCAPTCHA v2 API
 site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
 site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
+rev2_response = reCAPTCHAV2(url=site_url, site_key=site_key)
 ```
 ### Notice
 If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
+
+## ReCaptcha V3
+
+Put your site_url and site_key in the below code to obtain a token
+
+```
+# call reCAPTCHA v2 API
+site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
+site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
+rc3 = reCAPTCHAV3(url=site_url, site_key=site_key)
+print(rc3)
+```
