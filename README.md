@@ -2,13 +2,6 @@
 ## Configuration
 
 Get the following credentials from the "Application" section of the MetaBypass website:
-1. Go to Application Section 
-2. Click on Create Application Button
-3. You can see your credentials like below image
-
-![Screenshot 2023-05-21 120957](https://github.com/metabypass/metabypass-python/assets/128980891/4420f7ed-1588-412a-b0e8-2876d4ae1854)
-
-
 
 ```
 CLIENT_ID = 'YOUR_CLIENT_ID'  # ****CHANGE HERE WITH YOUR VALUE*******
@@ -16,6 +9,14 @@ CLIENT_SECRET = 'YOUR_CLIENT_SECRET'  # ****CHANGE HERE WITH YOUR VALUE*******
 EMAIL = 'YOUR_ACCOUNT_EMAIL'  # ****CHANGE HERE WITH YOUR VALUE*******
 PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
 ```
+
+1. Go to Application Section 
+2. Click on Create Application Button
+3. You can see your credentials like below image
+
+![Screenshot 2023-05-21 120957](https://github.com/metabypass/metabypass-python/assets/128980891/4420f7ed-1588-412a-b0e8-2876d4ae1854)
+
+
 ## Access Token
 Input Parameters :
 
