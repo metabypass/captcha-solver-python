@@ -57,8 +57,7 @@ print(captcha_rsponse)
 
 ## ReCaptcha V2
 
-Put your site_url and site_key in the below code to obtain a token
-
+To obtain a token, replace the placeholders "site_url" and "site_key" in the code below with the actual values of your site's URL and site key
 ```
 # call reCAPTCHA v2 API
 site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
@@ -70,7 +69,7 @@ If you receive a status_code of 201 and a 'False' result, you should wait for 10
 
 ## ReCaptcha V3
 
-Put your site_url and site_key in the below code to obtain a token
+In the below code, replace your site_url and site_key values with your actual values to obtain a token
 
 ```
 # call reCAPTCHA v2 API
