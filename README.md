@@ -47,3 +47,22 @@ def image_to_base64(image_file_path):
         return base64_data
 ```
 
+The following code prints the result of your captcha image
+```
+image_base64 = image_to_base64('YOUR_CAPTCHA_IMAGE_PATH')  # ****CHANGE HERE WITH YOUR VALUE*******
+captcha_rsponse = image_captcha(image_base64)
+print(captcha_rsponse)
+```
+
+
+## ReCaptcha V2
+
+Put your site_url and site_key in the below code to obtain a token
+
+```
+# call reCAPTCHA v2 API
+site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
+site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
+```
+### Notice
+If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
