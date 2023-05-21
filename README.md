@@ -15,6 +15,6 @@ Input Parameters :
 | grant_type	|  string	  |    Yes	    | in this case you should pass the grant_type by type "password" |
 | client_id	  |  string	  |    Yes	    | first you need to create an application in your dashboard then you should pass your client_id here |
 | client_secret |	string	|    Yes	    | at first you need to create an application in your dashboard then you should pass your client_secret here |
-| username	    |string	  |    Yes	    | pass your email
-password	string	Yes	pass your password |
+| username	    | string	|    Yes	    | pass your email |
+| password	    | string	|    Yes	    | pass your password |
 
