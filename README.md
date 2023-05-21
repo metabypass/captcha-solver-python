@@ -14,6 +14,7 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
 2. Click on Create Application Button
 3. You can see your credentials like below image
 
+
 ![Screenshot 2023-05-21 120957](https://github.com/metabypass/metabypass-python/assets/128980891/4420f7ed-1588-412a-b0e8-2876d4ae1854)
 
 
@@ -66,6 +67,7 @@ rev2_response = reCAPTCHAV2(url=site_url, site_key=site_key)
 ```
 ### Notice
 If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
+
 
 ## ReCaptcha V3
 
