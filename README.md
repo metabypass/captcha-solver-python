@@ -2,6 +2,11 @@
 ## Configuration
 
 Get the following credentials from the "Application" section of the MetaBypass website:
+1- Go to Application Section 
+2- Click on Create Application Button
+3- You can see your credentials like below image
+![image](https://github.com/metabypass/metabypass-python/assets/128980891/7e5e4518-719a-4561-97bd-2ff94a4dc217)
+
 ```
 CLIENT_ID = 'YOUR_CLIENT_ID'  # ****CHANGE HERE WITH YOUR VALUE*******
 CLIENT_SECRET = 'YOUR_CLIENT_SECRET'  # ****CHANGE HERE WITH YOUR VALUE*******
@@ -27,7 +32,7 @@ Response :
 | 401	        |  Error	 | your access token expired, create another application
 
 ## Text_Captcha
-Use b64encode function to get a bytes object for transferring images as text in API requests
+Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
 ```
 def image_to_base64(image_file_path):
     import base64
@@ -37,3 +42,4 @@ def image_to_base64(image_file_path):
         image_file.close()
         return base64_data
 ```
+
