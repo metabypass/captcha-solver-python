@@ -2,9 +2,9 @@
 ## Configuration
 
 Get the following credentials from the "Application" section of the MetaBypass website:
-1- Go to Application Section 
-2- Click on Create Application Button
-3- You can see your credentials like below image
+1. Go to Application Section 
+2. Click on Create Application Button
+3. You can see your credentials like below image
 ![image](https://github.com/metabypass/metabypass-python/assets/128980891/7e5e4518-719a-4561-97bd-2ff94a4dc217)
 
 ```
