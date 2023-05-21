@@ -18,3 +18,9 @@ Input Parameters :
 | username	    | string	|    Yes	    | pass your email |
 | password	    | string	|    Yes	    | pass your password |
 
+Response :
+
+| Status_code	|  Status  |  Access_token  | 
+| ----------- | -------- | -------------- |
+| 200	        | Success  | your access token |
+| 401	        |  Error	 | your access token expired, create another application
