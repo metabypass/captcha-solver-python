@@ -1,4 +1,4 @@
-# metabypass-python
+# MetaBypass-Python
 ## Configuration
 
 Get the following credentials from the "Application" section of the MetaBypass website:
@@ -9,7 +9,7 @@ CLIENT_SECRET = 'YOUR_CLIENT_SECRET'  # ****CHANGE HERE WITH YOUR VALUE*******
 EMAIL = 'YOUR_ACCOUNT_EMAIL'  # ****CHANGE HERE WITH YOUR VALUE*******
 PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
 ```
-
+[1]:
 1. Go to Application Section 
 2. Click on Create Application Button
 3. You can see credentials like below image
@@ -79,4 +79,16 @@ site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
 site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
 rc3 = reCAPTCHAV3(url=site_url, site_key=site_key)
 print(rc3)
+```
+
+
+
+# MetaBypass-PHP
+## Configuration
+Replace "YOUR_CLIENT_ID", "YOUR_SECRET_KEY", "YOUR_ACCOUNT_EMAIL" and "YOUR_ACCOUNT_PASSWORD" in the following code with the credentials you obtained through the [mentioned steps][1]:
+```
+define('CLIENT_ID', 'YOUR_CLIENT_ID'); //****CHANGE HERE WITH YOUR VALUE*******
+define('CLIENT_SECRET', 'YOUR_SECRET_KEY'); //****CHANGE HERE WITH YOUR VALUE*******
+define('EMAIL', 'YOUR_ACCOUNT_EMAIL'); //****CHANGE HERE WITH YOUR VALUE*******
+define('PASSWORD', 'YOUR_ACCOUNT_PASSWORD'); //****CHANGE HERE WITH YOUR VALUE*******
 ```
