@@ -9,7 +9,7 @@ CLIENT_SECRET = 'YOUR_CLIENT_SECRET'  # ****CHANGE HERE WITH YOUR VALUE*******
 EMAIL = 'YOUR_ACCOUNT_EMAIL'  # ****CHANGE HERE WITH YOUR VALUE*******
 PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
 ```
-[1]:
+
 1. Go to Application Section 
 2. Click on Create Application Button
 3. You can see credentials like below image
@@ -85,7 +85,7 @@ print(rc3)
 
 # MetaBypass-PHP
 ## Configuration
-Replace "YOUR_CLIENT_ID", "YOUR_SECRET_KEY", "YOUR_ACCOUNT_EMAIL" and "YOUR_ACCOUNT_PASSWORD" in the following code with the credentials you obtained through the [mentioned steps]([1]):
+Replace "YOUR_CLIENT_ID", "YOUR_SECRET_KEY", "YOUR_ACCOUNT_EMAIL" and "YOUR_ACCOUNT_PASSWORD" in the following code with the credentials you obtained through the [mentioned steps](#L13):
 ```
 define('CLIENT_ID', 'YOUR_CLIENT_ID'); //****CHANGE HERE WITH YOUR VALUE*******
 define('CLIENT_SECRET', 'YOUR_SECRET_KEY'); //****CHANGE HERE WITH YOUR VALUE*******
