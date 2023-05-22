@@ -85,7 +85,7 @@ print(rc3)
 
 # MetaBypass-PHP
 ## Configuration
-Replace "YOUR_CLIENT_ID", "YOUR_SECRET_KEY", "YOUR_ACCOUNT_EMAIL" and "YOUR_ACCOUNT_PASSWORD" in the following code with the credentials you obtained through the [mentioned steps](https://github.com/metabypass/metabypass-python/tree/main?plain=1#L13-L15):
+Replace "YOUR_CLIENT_ID", "YOUR_SECRET_KEY", "YOUR_ACCOUNT_EMAIL" and "YOUR_ACCOUNT_PASSWORD" in the following code with the credentials you obtained through the [mentioned steps](https://github.com/metabypass/metabypass-python/blob/main/README.md?plain=1#L13-L15):
 ```
 define('CLIENT_ID', 'YOUR_CLIENT_ID'); //****CHANGE HERE WITH YOUR VALUE*******
 define('CLIENT_SECRET', 'YOUR_SECRET_KEY'); //****CHANGE HERE WITH YOUR VALUE*******
