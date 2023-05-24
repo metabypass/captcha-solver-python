@@ -19,30 +19,26 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
 ![Screenshot 2023-05-21 120957](https://github.com/metabypass/metabypass-python/assets/128980891/4420f7ed-1588-412a-b0e8-2876d4ae1854)
 
 
-## Access Token
-Input Parameters :
-
-|     Name	  |   Type    |  Required   | Description |
-| ----------- | --------- | ----------- | ----------- |
-| grant_type	|  string	  |    Yes	    | in this case you should pass the grant_type by type "password" |
-| client_id	  |  string	  |    Yes	    | first you need to create an application in your dashboard then you should pass your client_id here |
-| client_secret |	string	|    Yes	    | at first you need to create an application in your dashboard then you should pass your client_secret here |
-| username	    | string	|    Yes	    | pass your email |
-| password	    | string	|    Yes	    | pass your password |
-
-Response :
-
-| Status_code	|  Status  |  Access_token_description  | 
-| ----------- | -------- | -------------- |
-| 200	        | Success  | your access token |
-| 401	        |  Error   | your access token expired, create another application|
-
- ------------------------------------------------------------------------------------------------------------------------
-
-
 ## There are 2 approaches for utilizing Metabypass-python:
 
- ### 1. __Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas__:
+### 1. __To simplify the process, you can download the 'MetaBypass_Packages' folder. Here's a step-by-step guide__:
+
+
+   - Start by downloading the 'MetaBypass_Packages' folder to a suitable location on your computer.
+
+   - Open your preferred command-line interface or terminal.
+
+   - Install the desired package for the specific captcha type you are interested in by executing the following command:
+     ```
+     pip install NAME_OF_PACKAGE
+     ```
+
+   - Replace "NAME_OF_PACKAGE" with the actual name of the package you want to install.
+
+   - Once the installation is complete, navigate to the test files provided in the 'MetaBypass_Packages' folder. Run the test files associated with the installed package to evaluate and verify the functionality of the captcha-solving process.
+
+
+ ### 2. __Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas__:
 
   - **Text_Captcha**
     
@@ -93,20 +89,25 @@ Response :
       rc3 = reCAPTCHAV3(url=site_url, site_key=site_key)
       print(rc3)
       ```
-    
-### 2. __To simplify the process, you can download the 'MetaBypass_Packages' folder. Here's a step-by-step guide__:
 
 
-   - Start by downloading the 'MetaBypass_Packages' folder to a suitable location on your computer.
+## Access Token
+Input Parameters :
 
-   - Open your preferred command-line interface or terminal.
+|     Name	  |   Type    |  Required   | Description |
+| ----------- | --------- | ----------- | ----------- |
+| grant_type	|  string	  |    Yes	    | in this case you should pass the grant_type by type "password" |
+| client_id	  |  string	  |    Yes	    | first you need to create an application in your dashboard then you should pass your client_id here |
+| client_secret |	string	|    Yes	    | at first you need to create an application in your dashboard then you should pass your client_secret here |
+| username	    | string	|    Yes	    | pass your email |
+| password	    | string	|    Yes	    | pass your password |
 
-   - Install the desired package for the specific captcha type you are interested in by executing the following command:
-     ```
-     pip install NAME_OF_PACKAGE
-     ```
+Response :
 
-   - Replace "NAME_OF_PACKAGE" with the actual name of the package you want to install.
+| Status_code	|  Status  |  Access_token_description  | 
+| ----------- | -------- | -------------- |
+| 200	        | Success  | your access token |
+| 401	        |  Error   | your access token expired, create another application|
 
-   - Once the installation is complete, navigate to the test files provided in the 'MetaBypass_Packages' folder. Run the test files associated with the installed package to evaluate and verify the functionality of the captcha-solving process.
+ ------------------------------------------------------------------------------------------------------------------------
 
