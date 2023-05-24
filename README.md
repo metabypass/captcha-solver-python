@@ -40,7 +40,7 @@ Response :
  ------------------------------------------------------------------------------------------------------------------------
 
 
-## There are 2 approaches for utilizing Metabypass-python:
+## __There are 2 approaches for utilizing Metabypass-python__:
 
 1. Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas:
 
