@@ -1,4 +1,7 @@
 # MetaBypass-Python
+
+There are two approaches for utilizing Metabypass-python:
+1. Download 'MetaBypass_Codes' folder and follow these steps: 
 ## Configuration
 
 Get the following credentials from the "Application" section of the MetaBypass website:
