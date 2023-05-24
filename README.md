@@ -70,12 +70,12 @@ Response :
    - **ReCaptcha V2**
 
     To obtain a token, replace the placeholders "site_url" and "site_key" in the following code with the actual values of your site's URL and site key
-    ```
-    # call reCAPTCHA v2 API
-    site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
-    site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
-    rev2_response = reCAPTCHAV2(url=site_url, site_key=site_key)
-    ```
+      ```
+      # call reCAPTCHA v2 API
+      site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
+      site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
+      rev2_response = reCAPTCHAV2(url=site_url, site_key=site_key)
+      ```
     #### Notice
     If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
 
@@ -84,13 +84,13 @@ Response :
 
     In the following code, replace your "site_url" and "site_key" values with your actual values to obtain a token
 
-    ```
-    # call reCAPTCHA v2 API
-    site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
-    site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
-    rc3 = reCAPTCHAV3(url=site_url, site_key=site_key)
-    print(rc3)
-    ```
+      ```
+      # call reCAPTCHA v2 API
+      site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
+      site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
+      rc3 = reCAPTCHAV3(url=site_url, site_key=site_key)
+      print(rc3)
+      ```
     
 ### 2. __To simplify the process, you can conveniently download the 'MetaBypass_Packages' folder. Here's a step-by-step guide__:
 
