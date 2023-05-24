@@ -42,7 +42,7 @@ Response :
 
 ## There are 2 approaches for utilizing Metabypass-python:
 
- 1. Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas:
+ 1. __Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas__:
 
     ### Text_Captcha 
     
@@ -92,7 +92,7 @@ Response :
     print(rc3)
     ```
     
-2. To simplify the process, you can conveniently download the 'MetaBypass_Packages' folder. Here's a step-by-step guide:
+2. __To simplify the process, you can conveniently download the 'MetaBypass_Packages' folder. Here's a step-by-step guide__:
 
 
    - Start by downloading the 'MetaBypass_Packages' folder to a suitable location on your computer.
