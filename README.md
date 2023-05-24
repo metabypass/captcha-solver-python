@@ -77,13 +77,13 @@ Response :
       rev2_response = reCAPTCHAV2(url=site_url, site_key=site_key)
       ```
       
-    **Notice**
-    If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
+      **Notice**
+      If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
 
 
    - **ReCaptcha V3**
 
-    In the following code, replace your "site_url" and "site_key" values with your actual values to obtain a token
+      In the following code, replace your "site_url" and "site_key" values with your actual values to obtain a token
 
       ```
       # call reCAPTCHA v2 API
