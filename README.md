@@ -67,7 +67,7 @@ Response :
     ```
 
 
-   - ** ReCaptcha V2**
+   - **ReCaptcha V2**
 
     To obtain a token, replace the placeholders "site_url" and "site_key" in the following code with the actual values of your site's URL and site key
     ```
@@ -80,7 +80,7 @@ Response :
     If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
 
 
-   - ** ReCaptcha V3**
+   - **ReCaptcha V3**
 
     In the following code, replace your "site_url" and "site_key" values with your actual values to obtain a token
 
