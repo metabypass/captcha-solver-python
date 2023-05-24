@@ -94,7 +94,7 @@ Response :
       print(rc3)
       ```
     
-### 2. __To simplify the process, you can conveniently download the 'MetaBypass_Packages' folder. Here's a step-by-step guide__:
+### 2. __To simplify the process, you can download the 'MetaBypass_Packages' folder. Here's a step-by-step guide__:
 
 
    - Start by downloading the 'MetaBypass_Packages' folder to a suitable location on your computer.
