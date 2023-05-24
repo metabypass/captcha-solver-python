@@ -40,9 +40,9 @@ Response :
  ------------------------------------------------------------------------------------------------------------------------
 
 
-## __There are 2 approaches for utilizing Metabypass-python__:
+## There are 2 approaches for utilizing Metabypass-python:
 
-1. Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas:
+__1. Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas__:
 
     ## Text_Captcha 
     Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
