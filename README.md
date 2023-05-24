@@ -44,7 +44,7 @@ Response :
 
  ### 1. __Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas__:
 
-     **Text_Captcha**
+   **Text_Captcha**
     
       Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
 
