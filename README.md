@@ -82,6 +82,7 @@ Response :
       If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
 
 
+
    - **ReCaptcha V3**
 
       In the following code, replace your "site_url" and "site_key" values with your actual values to obtain a token
