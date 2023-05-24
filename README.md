@@ -38,8 +38,9 @@ Response :
 | 401	        |  Error	 | your access token expired, create another application
 
 
+
 ## There are two approaches for utilizing Metabypass-python:
-1. Download 'MetaBypass_Codes' folder and follow these steps: 
+1. Download 'MetaBypass_Codes' folder and follow these steps for each type of Captcha: 
 
     ### Text_Captcha
     Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
