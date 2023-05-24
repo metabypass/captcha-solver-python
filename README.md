@@ -69,7 +69,7 @@ Response :
 
    - **ReCaptcha V2**
 
-    To obtain a token, replace the placeholders "site_url" and "site_key" in the following code with the actual values of your site's URL and site key
+     To obtain a token, replace the placeholders "site_url" and "site_key" in the following code with the actual values of your site's URL and site key
     
       ```
       site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
