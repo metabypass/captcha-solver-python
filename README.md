@@ -77,8 +77,7 @@ Response :
       rev2_response = reCAPTCHAV2(url=site_url, site_key=site_key)
       ```
       
-      **Notice**
-      
+      **Notice:**
       If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
 
 
