@@ -40,8 +40,9 @@ Response :
  ------------------------------------------------------------------------------------------------------------------------
 
 
-## ***There are two approaches for utilizing Metabypass-python:
-1. Download 'MetaBypass_Codes' folder and follow these steps for each type of Captcha: 
+## There are 2 approaches for utilizing Metabypass-python:
+
+1. Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas: 
 
     ### Text_Captcha
     Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
@@ -87,3 +88,15 @@ Response :
     rc3 = reCAPTCHAV3(url=site_url, site_key=site_key)
     print(rc3)
     ```
+    
+    2. To simplify the process, you can conveniently download the 'MetaBypass_Packages' folder, which includes separate Python packages for each captcha type, as well as accompanying test files. Here's a step-by-step guide:
+
+2.1. Start by downloading the 'MetaBypass_Packages' folder to a suitable location on your computer.
+2.2. Open your preferred command-line interface or terminal.
+2.3. Install the desired package for the specific captcha type you are interested in by executing the following command:
+```
+pip install NAME_OF_PACKAGE
+```
+2.4. Replace "NAME_OF_PACKAGE" with the actual name of the package you want to install.
+2.5. Once the installation is complete, navigate to the test files provided in the 'MetaBypass_Packages' folder. Run the test files associated with the installed package to evaluate and verify the functionality of the captcha-solving process.
+
