@@ -92,7 +92,7 @@ Response :
     print(rc3)
     ```
     
-2. __To simplify the process, you can conveniently download the 'MetaBypass_Packages' folder, which includes separate Python packages for each captcha type, as well as accompanying test files. Here's a step-by-step guide__:
+2. __To simplify the process, you can conveniently download the 'MetaBypass_Packages' folder. Here's a step-by-step guide__:
 
 
    2.1. Start by downloading the 'MetaBypass_Packages' folder to a suitable location on your computer.
@@ -106,5 +106,5 @@ Response :
 
    2.4. Replace "NAME_OF_PACKAGE" with the actual name of the package you want to install.
 
- 2.5. Once the installation is complete, navigate to the test files provided in the 'MetaBypass_Packages' folder. Run the test files associated with the installed package to evaluate and verify the functionality of the captcha-solving process.
+   2.5. Once the installation is complete, navigate to the test files provided in the 'MetaBypass_Packages' folder. Run the test files associated with the installed package to evaluate and verify the functionality of the captcha-solving process.
 
