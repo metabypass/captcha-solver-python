@@ -38,50 +38,50 @@ Response :
 | 401	        |  Error	 | your access token expired, create another application
 
 
-**There are two approaches for utilizing Metabypass-python:
+## There are two approaches for utilizing Metabypass-python:
 1. Download 'MetaBypass_Codes' folder and follow these steps: 
 
-## Text_Captcha
-Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
-```
-def image_to_base64(image_file_path):
-    import base64
-    with open(image_file_path, "rb") as image_file:
-        image_data = image_file.read()
-        base64_data = base64.b64encode(image_data).decode('utf-8')
-        image_file.close()
-        return base64_data
-```
+    ### Text_Captcha
+    Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
+    ```
+    def image_to_base64(image_file_path):
+        import base64
+        with open(image_file_path, "rb") as image_file:
+            image_data = image_file.read()
+            base64_data = base64.b64encode(image_data).decode('utf-8')
+            image_file.close()
+            return base64_data
+    ```
 
-The following code prints the result of your captcha image
-```
-image_base64 = image_to_base64('YOUR_CAPTCHA_IMAGE_PATH')  # ****CHANGE HERE WITH YOUR VALUE*******
-captcha_rsponse = image_captcha(image_base64)
-print(captcha_rsponse)
-```
-
-
-## ReCaptcha V2
-
-To obtain a token, replace the placeholders "site_url" and "site_key" in the following code with the actual values of your site's URL and site key
-```
-# call reCAPTCHA v2 API
-site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
-site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
-rev2_response = reCAPTCHAV2(url=site_url, site_key=site_key)
-```
-### Notice
-If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
+    The following code prints the result of your captcha image
+    ```
+    image_base64 = image_to_base64('YOUR_CAPTCHA_IMAGE_PATH')  # ****CHANGE HERE WITH YOUR VALUE*******
+    captcha_rsponse = image_captcha(image_base64)
+    print(captcha_rsponse)
+    ```
 
 
-## ReCaptcha V3
+    ### ReCaptcha V2
 
-In the following code, replace your "site_url" and "site_key" values with your actual values to obtain a token
+    To obtain a token, replace the placeholders "site_url" and "site_key" in the following code with the actual values of your site's URL and site key
+    ```
+    # call reCAPTCHA v2 API
+    site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
+    site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
+    rev2_response = reCAPTCHAV2(url=site_url, site_key=site_key)
+    ```
+    #### Notice
+    If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
 
-```
-# call reCAPTCHA v2 API
-site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
-site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
-rc3 = reCAPTCHAV3(url=site_url, site_key=site_key)
-print(rc3)
-```
+
+    ### ReCaptcha V3
+
+    In the following code, replace your "site_url" and "site_key" values with your actual values to obtain a token
+
+    ```
+    # call reCAPTCHA v2 API
+    site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
+    site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
+    rc3 = reCAPTCHAV3(url=site_url, site_key=site_key)
+    print(rc3)
+    ```
