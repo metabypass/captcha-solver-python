@@ -93,7 +93,7 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
       ```
 
 
-   ## Access Token
+## Access Token
    Input Parameters :
 
    |     Name	  |   Type    |  Required   | Description |
