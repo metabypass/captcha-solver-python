@@ -35,7 +35,7 @@ Response :
 | Status_code	|  Status  |  Access_token_description  | 
 | ----------- | -------- | -------------- |
 | 200	        | Success  | your access token |
-| 401	        |  Error	 | your access token expired, create another application
+| 401	        |  Error   | your access token expired, create another application|
 
 
 
