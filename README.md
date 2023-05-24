@@ -45,7 +45,7 @@ Response :
 1. __Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas__:
 
     ## Text_Captcha 
-    ===================================================================================================================
+    
     Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
     
     ```
@@ -91,7 +91,8 @@ Response :
     rc3 = reCAPTCHAV3(url=site_url, site_key=site_key)
     print(rc3)
     ```
-2. To simplify the process, you can conveniently download the 'MetaBypass_Packages' folder, which includes separate Python packages for each captcha type, as well as accompanying test files. Here's a step-by-step guide:
+    
+2. __To simplify the process, you can conveniently download the 'MetaBypass_Packages' folder, which includes separate Python packages for each captcha type, as well as accompanying test files. Here's a step-by-step guide__:
 
 
    2.1. Start by downloading the 'MetaBypass_Packages' folder to a suitable location on your computer.
