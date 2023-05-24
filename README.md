@@ -44,27 +44,27 @@ Response :
 
  ### 1. __Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas__:
 
-   **Text_Captcha**
+     **Text_Captcha**
     
-    Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
-    
-    ```
-    def image_to_base64(image_file_path):
-        import base64
-        with open(image_file_path, "rb") as image_file:
-            image_data = image_file.read()
-            base64_data = base64.b64encode(image_data).decode('utf-8')
-            image_file.close()
-            return base64_data
-    ```
+      Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
 
-    The following code prints the result of your captcha image
-    
-    ```
-    image_base64 = image_to_base64('YOUR_CAPTCHA_IMAGE_PATH')  # ****CHANGE HERE WITH YOUR VALUE*******
-    captcha_rsponse = image_captcha(image_base64)
-    print(captcha_rsponse)
-    ```
+      ```
+      def image_to_base64(image_file_path):
+          import base64
+          with open(image_file_path, "rb") as image_file:
+              image_data = image_file.read()
+              base64_data = base64.b64encode(image_data).decode('utf-8')
+              image_file.close()
+              return base64_data
+      ```
+
+      The following code prints the result of your captcha image
+
+      ```
+      image_base64 = image_to_base64('YOUR_CAPTCHA_IMAGE_PATH')  # ****CHANGE HERE WITH YOUR VALUE*******
+      captcha_rsponse = image_captcha(image_base64)
+      print(captcha_rsponse)
+      ```
 
 
    ### ReCaptcha V2
