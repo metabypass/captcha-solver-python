@@ -37,7 +37,8 @@ Response :
 | 200	        | Success  | your access token |
 | 401	        |  Error   | your access token expired, create another application|
 
-## ---------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------------------
+
 
 ## There are two approaches for utilizing Metabypass-python:
 1. Download 'MetaBypass_Codes' folder and follow these steps for each type of Captcha: 
