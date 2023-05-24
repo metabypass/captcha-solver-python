@@ -102,9 +102,9 @@ Response :
    - Open your preferred command-line interface or terminal.
 
    - Install the desired package for the specific captcha type you are interested in by executing the following command:
-   ```
-   pip install NAME_OF_PACKAGE
-   ```
+     ```
+     pip install NAME_OF_PACKAGE
+     ```
 
    - Replace "NAME_OF_PACKAGE" with the actual name of the package you want to install.
 
