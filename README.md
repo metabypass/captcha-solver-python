@@ -46,6 +46,7 @@ Response :
 
     ### Text_Captcha
     Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
+    
     ```
     def image_to_base64(image_file_path):
         import base64
@@ -57,6 +58,7 @@ Response :
     ```
 
     The following code prints the result of your captcha image
+    
     ```
     image_base64 = image_to_base64('YOUR_CAPTCHA_IMAGE_PATH')  # ****CHANGE HERE WITH YOUR VALUE*******
     captcha_rsponse = image_captcha(image_base64)
