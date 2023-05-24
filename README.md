@@ -70,13 +70,15 @@ Response :
    - **ReCaptcha V2**
 
     To obtain a token, replace the placeholders "site_url" and "site_key" in the following code with the actual values of your site's URL and site key
+    
       ```
       # call reCAPTCHA v2 API
       site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
       site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
       rev2_response = reCAPTCHAV2(url=site_url, site_key=site_key)
       ```
-    #### Notice
+      
+    **Notice**
     If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
 
 
