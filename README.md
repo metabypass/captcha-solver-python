@@ -78,6 +78,7 @@ Response :
       ```
       
       **Notice**
+      
       If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
 
 
