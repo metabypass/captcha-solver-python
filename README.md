@@ -38,6 +38,8 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
    - Once the installation is complete, navigate to the test files provided in the 'MetaBypass_Packages' folder. Run the test files associated with the installed package to evaluate and verify the functionality of the captcha-solving process.
 
 
+
+
  ### 2. __Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas__:
 
   - **Text_Captcha**
