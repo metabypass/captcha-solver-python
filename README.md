@@ -48,6 +48,7 @@ Response :
     
     Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
 
+
     ```
     def image_to_base64(image_file_path):
         import base64
