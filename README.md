@@ -89,7 +89,7 @@ Response :
     print(rc3)
     ```
     
-    2. To simplify the process, you can conveniently download the 'MetaBypass_Packages' folder, which includes separate Python packages for each captcha type, as well as accompanying test files. Here's a step-by-step guide:
+2. To simplify the process, you can conveniently download the 'MetaBypass_Packages' folder, which includes separate Python packages for each captcha type, as well as accompanying test files. Here's a step-by-step guide:
 
 2.1. Start by downloading the 'MetaBypass_Packages' folder to a suitable location on your computer.
 
