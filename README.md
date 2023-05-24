@@ -42,9 +42,9 @@ Response :
 
 ## There are 2 approaches for utilizing Metabypass-python:
 
- 1. __Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas__:
+ ## 1. __Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas__:
 
-    ## Text_Captcha 
+   #### Text_Captcha 
     
     Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
     
@@ -67,7 +67,7 @@ Response :
     ```
 
 
-    ## ReCaptcha V2
+   ### ReCaptcha V2
 
     To obtain a token, replace the placeholders "site_url" and "site_key" in the following code with the actual values of your site's URL and site key
     ```
@@ -80,7 +80,7 @@ Response :
     If you receive a status_code of 201 and a 'False' result, you should wait for 10 seconds and then retry the operation.
 
 
-    ## ReCaptcha V3
+   ### ReCaptcha V3
 
     In the following code, replace your "site_url" and "site_key" values with your actual values to obtain a token
 
