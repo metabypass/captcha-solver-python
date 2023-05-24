@@ -42,7 +42,7 @@ Response :
 
 ## There are 2 approaches for utilizing Metabypass-python:
 
- ## 1. __Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas__:
+ ### 1. __Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas__:
 
    **Text_Captcha**
     
