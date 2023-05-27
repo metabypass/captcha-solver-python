@@ -33,7 +33,7 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
      pip install metabypass
      ```
 
-   - Once the installation is complete, navigate to the test files provided in the 'MetaBypass_TestCodes' folder. Run the test files associated with the installed package to evaluate and verify the functionality of the captcha-solving process.
+   - Once the installation is complete, navigate to the test files provided in the 'MetaBypass_TestCodes' folder. Run the test files to evaluate and verify the functionality of the captcha-solving process.
 
 
 
