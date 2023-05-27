@@ -21,22 +21,19 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
 
 ## There are 2 approaches for utilizing Metabypass-python:
 
-### 1. __To simplify the process, you can download the 'MetaBypass_Packages' folder. Here's a step-by-step guide__:
+### 1. __To simplify the process, you can download the 'MetaBypass_TestCodes' folder. Here's a step-by-step guide__:
 
 
-   - Start by downloading the 'MetaBypass_Packages' folder to a suitable location on your computer.
+   - Start by downloading the 'MetaBypass_TestCodes' folder to a suitable location on your computer.
 
    - Open your preferred command-line interface or terminal.
 
-   - Install the desired package for the specific captcha type you are interested in by executing the following command:
+   - Install the 'metabypass' package by executing the following command:
      ```
-     pip install NAME_OF_PACKAGE
+     pip install metabypass
      ```
 
-   - Replace "NAME_OF_PACKAGE" with the actual name of the package you want to install.
-
-   - Once the installation is complete, navigate to the test files provided in the 'MetaBypass_Packages' folder. Run the test files associated with the installed package to evaluate and verify the functionality of the captcha-solving process.
-
+   - Once the installation is complete, navigate to the test files provided in the 'MetaBypass_TestCodes' folder. Run the test files associated with the installed package to evaluate and verify the functionality of the captcha-solving process.
 
 
 
