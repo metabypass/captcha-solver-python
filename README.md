@@ -24,7 +24,7 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
 ### 1. __To simplify the process, you can download the 'MetaBypass_TestCodes' folder. Here's a step-by-step guide__:
 
 
-   - Start by downloading the 'MetaBypass_TestCodes' folder to a suitable location on your computer.
+   - Start by downloading the 'MetaBypass_TestCodes' folder.
 
    - Open your preferred command-line interface or terminal.
 
