@@ -1,5 +1,5 @@
 # call reCAPTCHA v2 API
-from metabypassrecaptcha2 import *
+from metabypass import MetaBypass
 import time
 
 CLIENT_ID = 'YOUR_CLIENT_ID'  # ****CHANGE HERE WITH YOUR VALUE*******
