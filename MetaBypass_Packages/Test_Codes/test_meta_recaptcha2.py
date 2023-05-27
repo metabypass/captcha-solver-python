@@ -6,12 +6,14 @@ CLIENT_ID = 'YOUR_CLIENT_ID'  # ****CHANGE HERE WITH YOUR VALUE*******
 CLIENT_SECRET = 'YOUR_CLIENT_SECRET'  # ****CHANGE HERE WITH YOUR VALUE*******
 EMAIL = 'YOUR_ACCOUNT_EMAIL'  # ****CHANGE HERE WITH YOUR VALUE*******
 PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
-cred=getCredentials(CLIENT_ID,CLIENT_SECRET,EMAIL,PASSWORD)
+
+solver=MetaBypass(CLIENT_ID,CLIENT_SECRET,EMAIL,PASSWORD)
 
 site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
 site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
-rev2_response = reCAPTCHAV2(url=site_url, site_key=site_key,cred=cred)
 
+
+rev2_response = solver.reCAPTCHAV2(url=site_url, site_key=site_key)
 try:
     recaptcha_id = rev2_response['data']['RecaptchaId']
 except:
@@ -26,7 +28,7 @@ for i in range(6):
     # wait 10 seconds to get result
     time.sleep(10)
 
-    result = getResult(recaptcha_id,cred)
+    result = solver.getResult(recaptcha_id)
 
     try:
         if result:
@@ -37,5 +39,4 @@ for i in range(6):
         pass
 
     # print("reCAPTCHA result not ready. wait 10 seconds again ...");
-
 print(result)
