@@ -21,23 +21,51 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
 
 ## There are 2 approaches for utilizing Metabypass-python:
 
-### 1. __To simplify the process, you can download the 'MetaBypass_TestCodes' folder. Here's a step-by-step guide__:
+### 1. __Easy Implementation__:
 
-
-   - Start by downloading the 'MetaBypass_TestCodes' folder.
-
-   - Open your preferred command-line interface or terminal.
-
+   **Notice:**
+      You can simply download the following steps in 'MetaBypass_TestCodes'
+      
    - Install the 'metabypass' package by executing the following command:
      ```
      pip install metabypass
      ```
+     
+   - Import 'MetaBypass' class from the package:
+     ```
+     from metabypass import MetaBypass
+     ```
+   - Define your credentials:
+     ```
+     solver=MetaBypass(CLIENT_ID,CLIENT_SECRET,EMAIL,PASSWORD)
+     ```
+   - To obtain the results for each type of captcha, you can use the following codes:
+   
+      - **Text_Captcha**
+      
+        ```
+        captcha_response = solver.image_captcha('YOUR_CAPTCHA_IMAGE_PATH')
+        print(captcha_response)
+        ```  
+        
+      - **ReCaptcha V2**
 
-   - Once the installation is complete, navigate to the test files provided in the 'MetaBypass_TestCodes' folder. Run the test files to evaluate and verify the functionality of the captcha-solving process.
+        ```
+        rev2_response = solver.reCAPTCHAV2(url=site_url, site_key=site_key)  
+        print(rev2_response)
+        ```  
+        
+      - **ReCaptcha V3**
+
+        ```
+        rev3_response = solver.reCAPTCHAV3(url=site_url, site_key=site_key)
+        print(rev3_response)
+        ```  
 
 
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- ### 2. __Download the 'MetaBypass_Codes' folder and follow these steps for different types of Captchas__:
+ ### 2. __Raw Implementation__:
 
   - **Text_Captcha**
     
