@@ -1,4 +1,4 @@
-# MetaBypass-Python
+# CAPTCHA solver python
 
 ## Configuration
 
