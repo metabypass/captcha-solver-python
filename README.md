@@ -13,7 +13,7 @@ EMAIL = 'YOUR_ACCOUNT_EMAIL'  # ****CHANGE HERE WITH YOUR VALUE*******
 PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
 ```
 
-1. Go to Application Section 
+1. Go to [Application Section](https://app.metabypass.tech/application)
 2. Click on Create Application Button
 3. You can see credentials like below image
 
