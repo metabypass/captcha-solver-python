@@ -2,7 +2,7 @@
 Free demo -> https://app.metabypass.tech/application
 
 
-<a href="http://metabypass.tech/" target="_blank">example</a>
+<a href="http://metabypass.tech/" target="_blank" rel="noopener">example</a>
 
 
 
