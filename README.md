@@ -2,7 +2,7 @@
 Free demo -> https://app.metabypass.tech/application
 
 
-<a href="https://myawesome.link" target="_blank">my link</a>
+<a href="https://metabypass.tech" target="_blank">my link</a>
 
 
 
