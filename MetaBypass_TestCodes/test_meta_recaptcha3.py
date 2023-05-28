@@ -10,5 +10,6 @@ solver=MetaBypass(CLIENT_ID,CLIENT_SECRET,EMAIL,PASSWORD)
 
 site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
 site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
-rc3 = solver.reCAPTCHAV3(url=site_url, site_key=site_key)
-print(rc3)
+
+rev3_response = solver.reCAPTCHAV3(url=site_url, site_key=site_key)
+print(rev3_response)
