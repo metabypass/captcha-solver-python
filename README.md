@@ -2,10 +2,6 @@
 Free demo (no credit card required) -> https://app.metabypass.tech/application
 
 
-<a href="http://metabypass.tech/" target="_blank" rel="noopener">example</a>
-
-
-
 ## Configuration
 
 Get the following credentials from the "Application" section of the MetaBypass website:
