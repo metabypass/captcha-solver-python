@@ -1,5 +1,6 @@
 # CAPTCHA solver python
 Free demo -> https://app.metabypass.tech/application
+[my link](https://metabypass.tech)[newtab]
 
 ## Configuration
 
