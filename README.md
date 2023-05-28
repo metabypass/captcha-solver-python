@@ -1,6 +1,10 @@
 # CAPTCHA solver python
 Free demo -> https://app.metabypass.tech/application
-[my link](https://metabypass.tech)[newtab]
+
+
+<a href="https://myawesome.link" target="_blank">my link</a>
+
+
 
 ## Configuration
 
