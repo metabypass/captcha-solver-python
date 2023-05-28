@@ -45,9 +45,25 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
       - **Text_Captcha**
       
         ```
-        captcha_response = solver.image_captcha('YOUR_CAPTCHA_IMAGE_PATH')
+        captcha_response = solver.image_captcha('YOUR_CAPTCHA_IMAGE_PATH',numeric=0,min_len=0,max_len=0) 
         print(captcha_response)
         ```  
+        **Notice:**
+          Defining 'numeric', 'min_len', and 'max_len' is optional. Their default values are 0. You can change them based on following table:
+          
+             | Name	|  Description  | 
+             | ----------- |------------- |
+             | numeric	   |  0 : not specified (Default)
+                              1 : captcha contains only numbers
+                              2 : captcha contains only letters
+                              3 : captcha contains only numbers or only latters
+                              4 : captcha must contain both numbers and letters |
+                              
+             | min_len	    | 0 : not specified (Default)
+                            1-20 : minimal number of symbols in captcha|
+             | max_len	    | 0 : not specified (Default)
+                            1-20 : maximal number of symbols in captcha|
+          
         
       - **ReCaptcha V2**
 
