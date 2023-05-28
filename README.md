@@ -14,8 +14,7 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
 ```
 
 1. Go to [Application Section](https://app.metabypass.tech/application)
-2. Click on Create Application Button
-3. You can see credentials like below image
+2. You can see credentials like below image
 
 
 ![Screenshot 2023-05-21 120957](https://github.com/metabypass/metabypass-python/assets/128980891/4420f7ed-1588-412a-b0e8-2876d4ae1854)
