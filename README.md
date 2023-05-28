@@ -6,7 +6,7 @@ Free demo (no credit card required) -> https://app.metabypass.tech/application
 
 Get the following credentials from the "Application" section of the MetaBypass website:
 
-```
+```python
 CLIENT_ID = 'YOUR_CLIENT_ID'  # ****CHANGE HERE WITH YOUR VALUE*******
 CLIENT_SECRET = 'YOUR_CLIENT_SECRET'  # ****CHANGE HERE WITH YOUR VALUE*******
 EMAIL = 'YOUR_ACCOUNT_EMAIL'  # ****CHANGE HERE WITH YOUR VALUE*******
@@ -28,23 +28,26 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
       You can simply download the following steps in 'MetaBypass_TestCodes'
       
    - Install the 'metabypass' package by executing the following command:
-     ```
+  
+     ```python
      pip install metabypass
      ```
      
    - Import 'MetaBypass' class from the package:
-     ```
+   
+     ```python
      from metabypass import MetaBypass
      ```
+    
    - Define your credentials:
-     ```
+     ```python
      solver=MetaBypass(CLIENT_ID,CLIENT_SECRET,EMAIL,PASSWORD)
      ```
    - To obtain the results for each type of captcha, you can use the following codes:
    
       - **Text_Captcha**
       
-        ```
+        ```python
         captcha_response = solver.image_captcha('YOUR_CAPTCHA_IMAGE_PATH',numeric=0,min_len=0,max_len=0) 
         print(captcha_response)
         ```  
@@ -60,14 +63,14 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
         
       - **ReCaptcha V2**
 
-        ```
+        ```python
         rev2_response = solver.reCAPTCHAV2(url=site_url, site_key=site_key)  
         print(rev2_response)
         ```  
         
       - **ReCaptcha V3**
 
-        ```
+        ```python
         rev3_response = solver.reCAPTCHAV3(url=site_url, site_key=site_key)
         print(rev3_response)
         ```  
@@ -81,7 +84,7 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
     
     Using the  base64.b64encode function to get a bytes object for transferring images as text in API requests
 
-    ```
+    ```python
     def image_to_base64(image_file_path):
         import base64
         with open(image_file_path, "rb") as image_file:
@@ -93,7 +96,7 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
 
     The following code prints the result of your captcha image
 
-    ```
+    ```python
     image_base64 = image_to_base64('YOUR_CAPTCHA_IMAGE_PATH')  # ****CHANGE HERE WITH YOUR VALUE*******
     captcha_rsponse = image_captcha(image_base64)
     print(captcha_rsponse)
@@ -104,7 +107,7 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
 
      To obtain a token, replace the placeholders "site_url" and "site_key" in the following code with the actual values of your site's URL and site key
     
-      ```
+      ```python
       site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
       site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
       rev2_response = reCAPTCHAV2(url=site_url, site_key=site_key)
@@ -119,7 +122,7 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
 
       In the following code, replace your "site_url" and "site_key" values with your actual values to obtain a token
 
-      ```
+      ```python
       # call reCAPTCHA v2 API
       site_url = "YOUR_SITE_URL"  # ****CHANGE HERE WITH YOUR VALUE*******
       site_key = "YOUR_SITE_KEY"  # ****CHANGE HERE WITH YOUR VALUE*******
