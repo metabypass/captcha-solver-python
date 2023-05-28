@@ -49,14 +49,13 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
         print(captcha_response)
         ```  
         **Notice:**
-          Defining 'numeric', 'min_len', and 'max_len' is optional. Their default values are 0. You can change them based on following table:
+          Defining 'numeric', 'min_len', and 'max_len' is optional. Their default values are 0. You can change them based on the following table:
           
            | Name	|  Description  | 
            | ----------- |------------- |
-           | numeric	   |  0 : not specified (Default)<br> 1 : captcha contains only numbers<br> 2 : captcha contains only letters<br> 3 : captcha contains only numbers or only latters <br>4 : captcha must contain both numbers and letters |
-           
-           | min_len	    | 0 : not specified (Default)<br>1-20 : minimal number of symbols in captcha|
-           | max_len	    | 0 : not specified (Default)<br>1-20 : maximal number of symbols in captcha|
+           | numeric	   |  0 : not specified (Default) <br> 1 : captcha contains only numbers <br> 2 : captcha contains only letters <br> 3 : captcha contains only numbers or only latters <br> 4 : captcha must contain both numbers and letters |
+           | min_len	   | 0 : not specified (Default) <br> 1-20 : minimal number of symbols in captcha|
+           | max_len	    | 0 : not specified (Default) <br> 1-20 : maximal number of symbols in captcha|
           
         
       - **ReCaptcha V2**
