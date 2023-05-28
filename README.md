@@ -1,5 +1,5 @@
 # CAPTCHA solver python
-Free demo -> https://app.metabypass.tech/application
+Free demo (no credit card required) -> https://app.metabypass.tech/application
 
 
 <a href="http://metabypass.tech/" target="_blank" rel="noopener">example</a>
