@@ -4,7 +4,7 @@ Free demo (no credit card required) -> https://app.metabypass.tech/application
 
 ## Configuration
 
-Get the following credentials from the "Application" section of the MetaBypass website:
+Get the following credentials from the [Application](https://app.metabypass.tech/application) section of the MetaBypass website:
 
 ```python
 CLIENT_ID = 'YOUR_CLIENT_ID'  # ****CHANGE HERE WITH YOUR VALUE*******
