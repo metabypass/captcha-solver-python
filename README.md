@@ -27,16 +27,16 @@ PASSWORD = 'YOUR_ACCOUNT_PASSWORD'  # ****CHANGE HERE WITH YOUR VALUE*******
    **Notice:**
       You can simply download the following steps in 'MetaBypass_TestCodes'
       
-   - Install the 'metabypass' package by executing the following command:
+   - Install the 'metabypasscaptcha' package by executing the following command:
   
      ```python
-     pip install metabypass
+     pip install metabypasscaptcha
      ```
      
    - Import 'MetaBypass' class from the package:
    
      ```python
-     from metabypass import MetaBypass
+     from metabypasscaptcha import MetaBypass
      ```
     
    - Define your credentials:
